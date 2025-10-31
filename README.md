@@ -31,7 +31,7 @@ This solution involved designing a new `Customer_Master` table to act as the cen
 <img width="452" height="546" alt="Picture 1" src="https://github.com/user-attachments/assets/008e1a50-af7b-497b-9828-dea7bbfb2fe4" />
 
 
-> [View Full Analysis Report](./project-1-folder/Vodafone solution.docx)> (Note: Replace `project-1-folder` and `YOUR_REPORT_1_FILE.pdf` with your actual folder and file names)*
+> [View Full Analysis Report](./vodafone-case-study/Vodafone solution.docx) 
 
 --- 
 
