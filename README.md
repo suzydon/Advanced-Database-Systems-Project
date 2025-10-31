@@ -30,7 +30,8 @@ This solution involved designing a new `Customer_Master` table to act as the cen
 
 <img width="452" height="546" alt="Picture 1" src="https://github.com/user-attachments/assets/008e1a50-af7b-497b-9828-dea7bbfb2fe4" />
 
->  [View Full Strategy Report](./vodafone-case-study/Vodafone solution)   
+
+>  [View Full Strategy Report](./vodafone-case-study/Vodafone solution.docx)   
 
 ---
 
@@ -52,4 +53,4 @@ A series of controlled SQL queries were executed to validate Snowflake's multi-l
        Behavior:  A  similar  (but not identical) query accessing the same dataset (e.g., `MAX()` instead of `AVG()`) was significantly faster on its second run.
        Conclusion:  The Query Profile showed data was read from "LOCAL_DISK_CACHE," avoiding expensive remote storage reads and accelerating exploratory analysis.
 
->  [View SQL Validation Scripts](./snowflake-labs/all_SQL_FILE.sql)  
+>  [View SQL Validation Scripts](./snowflake-labs/)  
