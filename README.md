@@ -35,7 +35,6 @@ This solution involved designing a new `Customer_Master` table to act as the cen
 
 --- 
 
----
 
   Part 2: Technical Lab - Snowflake Performance & Cost Optimization
 
