@@ -22,13 +22,13 @@ Vodafone faced significant operational challenges due to customer data being fra
 
    The Solution: Master Data Management (MDM)
 
-A data governance strategy was proposed, centered on establishing a "Golden Record" for each customer using a stable, unique identifier (e.g., `License ID`).
+A data governance strategy was proposed, centered on establishing a "Golden Record" for each customer using a stable, unique identifier ( `License ID`).
 
 This solution involved designing a new `Customer_Master` table to act as the central hub, linking all customer-related services and products via foreign keys to create a unified data model.
 
- (Recommended: Insert your database architecture or ER diagram image here) 
 
->  [View Full Strategy Report](./vodafone-case-study/YOUR_REPORT_FILE.pdf)  >  (Note: Replace `YOUR_REPORT_FILE.pdf` with your actual report file name) 
+
+>  [View Full Strategy Report](./vodafone-case-study/Vodafone solution)   
 
 ---
 
@@ -50,4 +50,4 @@ A series of controlled SQL queries were executed to validate Snowflake's multi-l
        Behavior:  A  similar  (but not identical) query accessing the same dataset (e.g., `MAX()` instead of `AVG()`) was significantly faster on its second run.
        Conclusion:  The Query Profile showed data was read from "LOCAL_DISK_CACHE," avoiding expensive remote storage reads and accelerating exploratory analysis.
 
->  [View SQL Validation Scripts](./snowflake-labs/YOUR_SQL_FILE.sql)  >  (Note: Replace `YOUR_SQL_FILE.sql` with your actual SQL file name) 
+>  [View SQL Validation Scripts](./snowflake-labs/all_SQL_FILE.sql)  
