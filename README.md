@@ -16,6 +16,7 @@ This project demonstrates the end-to-end capability of diagnosing a complex busi
 
   Part 1: Case Study - Vodafone Customer Data Unification Strategy
 
+
    The Business Problem
 
 Vodafone faced significant operational challenges due to customer data being fragmented across multiple, siloed systems (e.g., pre-paid, post-paid). This resulted in billing inaccuracies, poor customer experience, and an inability to form a "Single Customer View" for analytics or marketing.
@@ -27,6 +28,7 @@ A data governance strategy was proposed, centered on establishing a "Golden Reco
 This solution involved designing a new `Customer_Master` table to act as the central hub, linking all customer-related services and products via foreign keys to create a unified data model.
 
 
+<img width="452" height="546" alt="Picture 1" src="https://github.com/user-attachments/assets/008e1a50-af7b-497b-9828-dea7bbfb2fe4" />
 
 >  [View Full Strategy Report](./vodafone-case-study/Vodafone solution)   
 
